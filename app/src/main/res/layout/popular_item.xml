@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:padding="10dp"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/status"
-        android:background="@color/teal_700"
-        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:background="@color/teal_700"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:text="Status"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:textColor="@color/white"
-        android:background="@color/black"
         android:id="@+id/discount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:text="Discount"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/status"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -69,13 +68,16 @@
     <RatingBar
 
         android:id="@+id/ratingBar2"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawingCacheQuality="high"
         android:isIndicator="true"
         android:numStars="5"
+        android:orientation="horizontal"
         android:rating="3"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
+        android:scaleX="1"
+        android:scaleY="1"
         app:layout_constraintStart_toStartOf="@+id/popular_brand"
         app:layout_constraintTop_toBottomOf="@+id/popular_brand" />
 
@@ -85,9 +87,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:textSize="20sp"
-        android:textColor="@color/teal_700"
         android:text="Price"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/ratingBar2"
         app:layout_constraintTop_toBottomOf="@+id/ratingBar2" />
 
