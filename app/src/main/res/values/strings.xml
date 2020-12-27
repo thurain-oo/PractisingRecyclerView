@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">RecyclerViewSample</string>
+
+    <!--    Cameras-->
+    <string name="cameras_title1">Camera</string>
+    <string name="cameras_description1">New Product from Leica Brand</string>
+    <string name="cameras_title2">Camera</string>
+    <string name="cameras_description2">New Product from Nikon Brand</string>
+    <string name="cameras_title3">Camera</string>
+    <string name="cameras_description3">New Product from Sony Brand</string>
+
+    <!--    ChosenByCountry-->
+    <string name="country_name1">Japan</string>
+    <string name="country_name2">Korea</string>
+    <string name="country_name3">China</string>
+    <string name="country_name4">International</string>
+
+    <!-- LatestArrival   -->
+    <string name="la_productName1">Hyde Park N41015</string>
+    <string name="la_bandName1">LOUIS VUITTON</string>
+    <string name="la_prices1">999,99999 KS</string>
+    <string name="la_rating1">4</string>
+
+    <string name="la_productName2">HORNS PINK LONG SLEEVE SHIRT</string>
+    <string name="la_bandName2">Lady Gaga</string>
+    <string name="la_prices2">72000 KS</string>
+    <string name="la_rating2">5</string>
+
+    <string name="la_productName3">Iphone 12</string>
+    <string name="la_bandName3">Apple</string>
+    <string name="la_prices3">1200 Ks</string>
+    <string name="la_rating3">5</string>
+
+    <!--   Popular Products
+ val pp_status : Int,
+    val pp_discount : Int,
+    val pp_product: Int,
+    val pp_brand: Int,
+    val pp_rating :Int
+    val pp_final_price : Int,
+    val pp_original_price : Int
+-->
+    <string name="pp_status1">NEW</string>
+    <string name="pp_discount1">30% off</string>
+    <string name="pp_product1">Iphone 8 Plus</string>
+    <string name="pp_brand1">Apple</string>
+    <string name="pp_rating1">4</string>
+    <string name="pp_final_price1">980000 KS</string>
+    <string name="pp_original_price1">11000000 KS</string>
+
+    <string name="pp_status2">NEW</string>
+    <string name="pp_discount2">34 % off</string>
+    <string name="pp_product2">GhostBed 11 Inch Cooling Gel Memory Foam blah blah blah</string>
+    <string name="pp_brand2">GhostBed</string>
+    <string name="pp_rating2">4</string>
+    <string name="pp_final_price2">325000 KS</string>
+    <string name="pp_original_price2">495000 KS</string>
+
+    <string name="pp_status3"></string>
+    <string name="pp_discount3"></string>
+    <string name="pp_product3">Nintendo Switch - Neon Blue and Red Joy-Con</string>
+    <string name="pp_brand3">Nintendo</string>
+    <string name="pp_rating3">4</string>
+    <string name="pp_final_price3">359000 KS</string>
+    <string name="pp_original_price3"></string>
+
+    <string name="pp_status4">NEW</string>
+    <string name="pp_discount4"></string>
+    <string name="pp_product4">BELAROI Womens Comfy Swing Tunic Short blah blah blah </string>
+    <string name="pp_brand4">Belaroi</string>
+    <string name="pp_rating4">5</string>
+    <string name="pp_final_price4">18990 KS</string>
+    <string name="pp_original_price4"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
